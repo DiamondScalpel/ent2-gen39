@@ -1,0 +1,39 @@
+/* Reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* body {
+  background-color: black;
+  color: white;
+} */
+ul {
+  list-style: none;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;  
+}
+button {
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+}
+/* app */
+.app {
+  background-image: url('https://cdn.dribbble.com/users/6551617/screenshots/14733178/media/5c45b653f12d464bda36ad0b79ee8d94.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
